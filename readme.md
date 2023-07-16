@@ -1,48 +1,16 @@
-# Return of Samus Disassembly
+# Source Code for distressCall mod to Metroid II: Return of Samus
 
-A disassembly of one of my favorite Game Boy games. A first-pass over every function of code has been completed, but there are still plenty of improvements to be made to make the code more intelligible and usable. Feel free to contribute.
+see here for original project: https://github.com/alex-west/M2RoS
 
 ## Build Instructions
 
 1. Install [rgbds](https://github.com/rednex/rgbds#1-installing-rgbds)
 2. Either run `make all` or `build.bat`, depending on your preference.
 3. The assembled game and a [BGB](http://bgb.bircd.org/) compatible `.sym` file will appear in the `out` folder.
-
-The resultant file should have this hash: `md5: 9639948ad274fa15281f549e5f9c4d87`
-
-## How to Contribute
-
-1. Fork this repository (if you please).
-2. Make something better. Perhaps start by doing something like:
-   - Checking the issue tracker.
-   - Giving a function or variable a (better) name.
-   - Properly defining a RAM address (eg. labelName: ds 1).
-   - Turning a magic number into a constant.
-   - Turning a raw pointer (eg. $4242) into a proper label (eg. enemyAI_squeek).
-   - Adding a missing label.
-   - Adding informative comments.
-   - etc.
-3. Verify that your changes still result in a byte-for-byte identical game.
-4. Submit a pull request.
-
-Please refrain from moving any chunk of code into a separate file without first discussing it in the issue tracker.
-
-If you have questions or comments, please drop by the #metroid-ii channel on the [MetConst Discord](https://discord.gg/xDwaaqa).
-
-## Directory Structure
-
-Subject to change.
-
-- `docs` - Assorted notes regarding the game's formats and structure
-- `out` - Output directory for the build process
-- `scripts` - Various scripts to extra data from the game
-- `patches` - Basic modifications to improve or change the game.
-- `SRC` - Top level source code
-- `SRC/data` - General data that hasn't been or can't be categorized elsewhere
-- `SRC/gfx` - Generic tile data
-- `SRC/maps` - Level data banks, along with the associated enemy data and door scripts
-- `SRC/ram` - Definitions/declarations for VRAM, SRAM, WRAM, and HRAM.
-- `SRC/tilesets` - Tile graphics, metatile definitions, and collision tables for each tileset
+4. Download a copy of the distressCall IPS here: https://metroidconstruction.com/hack.php?id=737
+5. Apply the IPS to a copy of Metroid II: Return of Samus (the original ROM you patch with the IPS should have this hash: `md5: 9639948ad274fa15281f549e5f9c4d87`)
+6. When you edit banks of the distressCall source, you will need to build it, and then paste the modified banks from the file produced in 'out' to the ROM produced when you patched the original game with the .ips patch.
+7. LAMP (found here: https://github.com/ConConner/LAMP) was the tool I used to make the room layouts and enemy placements.
 
 ## Resources
 
