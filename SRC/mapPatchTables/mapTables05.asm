@@ -1,0 +1,52 @@
+;map tables for vanilla bank 0D
+;map to load for each screen of bank
+	db nun, m02, m02, nun, nun, nun, nun, m02, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, m02, m02, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, m04, m04, m04, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, m04, m04, m04, m04, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, m04, m04, m04, m04, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, m04, m04, m04, m04, m04, m04, m04, m04, m04, m04, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, m07, m07, m07, nun, nun, m07, m07, m07, nun, nun
+	db nun, nun, nun, nun, nun, m07, m07, m07, m07, nun, nun, m07, m07, m07, m07, nun
+	db nun, nun, nun, nun, nun, m07, m07, m07, m07, nun, nun, m07, m07, m07, m07, nun
+	db nun, nun, nun, nun, nun, nun, m07, m07, m07, nun, nun, m07, m07, m07, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, m07, m07, nun, nun, m07, m07, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+;samus map location offset X for screen
+	db nun, $0C, $0C, $04, $04, $04, nun, $08, $0B, nun, nun, nun, nun, nun, nun, nun
+	db nun, $0C, $0C, $04, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, $04, $04, $04, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, $0A, $0A, $0A, $04, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, $0A, $0A, $0A, $0A, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, $0A, $0A, $0A, $0A, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, $0A, $0A, $0A, $0A, $0A, $0A, $0A, $0A, $0A, $0A, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, $1A, $1A, $1A, nun, nun, $1A, $1A, $1A, nun, nun
+	db nun, nun, nun, nun, nun, $1A, $1A, $1A, $1A, nun, nun, $1A, $1A, $1A, $1A, nun
+	db nun, nun, nun, nun, nun, $1A, $1A, $1A, $1A, nun, nun, $1A, $1A, $1A, $1A, nun
+	db nun, nun, nun, nun, nun, nun, $1A, $1A, $1A, nun, nun, $1A, $1A, $1A, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, $1A, $1A, nun, nun, $1A, $1A, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
+;samus map location offset X for screen
+	db nun, $0E, $0E, $08, $08, $08, nun, $0A, $04, nun, nun, nun, nun, nun, nun, nun
+	db nun, $0E, $0E, $08, nun, nun, nun, nun, nun, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, $08, $08, $08, nun, nun, nun, nun, nun, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, $03, $03, $03, $08, nun, nun, nun, nun, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, nun, $03, $03, $03, $03, nun, nun, nun, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, nun, $03, $03, $03, $03, nun, nun, nun, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, $0B, $03, $03, $03, $03, $03, $03, $03, $03, $03, $03, nun, nun, nun, nun
+	db nun, $0B, nun, nun, $0B, $0B, nun, nun, nun, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, $0B, $0B, $0B, $0B, $0B, nun, nun, nun, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, $0B, nun, nun, $0B, nun, $1F, $1F, nun, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, $01, $01, $01, nun, nun, $01, $01, $01, nun, nun
+	db nun, nun, nun, nun, nun, $01, $01, $01, $01, nun, nun, $01, $01, $01, $01, nun
+	db nun, nun, nun, nun, nun, $01, $01, $01, $01, nun, nun, $01, $01, $01, $01, nun
+	db nun, nun, nun, nun, nun, nun, $01, $01, $01, nun, nun, $01, $01, $01, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, $01, $01, nun, nun, $01, $01, nun, nun, nun
+	db nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun, nun
